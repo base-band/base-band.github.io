@@ -1,0 +1,26 @@
+{
+  "name": "base-band.github.io",
+  "version": "1.0.0",
+  "description": "BaseBand Fondation Portal",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf build",
+    "build": "npm run clean && eleventy",
+    "start": "eleventy --serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/base-band/base-band.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/base-band/base-band.github.io/issues"
+  },
+  "homepage": "https://github.com/base-band/base-band.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

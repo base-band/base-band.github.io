@@ -1,0 +1,14 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: helvetica;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration-color: hsl(186, 100%, 41%);
+}
