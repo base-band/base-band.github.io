@@ -2,7 +2,7 @@ name: Website Build
 on:
   push:
     branches:
-      - main
+      - trunk
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
